@@ -1,0 +1,32 @@
+{
+  "name": "udemy_ko_cypress_ts",
+  "version": "1.0.0",
+  "description": "Automated Software Testing with Cypress and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "-----------> Comment #11": "UDEMY - Kaniel Outis (Section 2: Cypress Fundamentals - Basics) - START",
+
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+
+    "cy:run_ALL_Headless": "cypress run",
+    "cy:run_ALL_Headed": "cypress run --headed",
+
+    "-----------> Comment #12": "UDEMY - Kaniel Outis (Section 2: Cypress Fundamentals - Basics) - END"
+
+
+  },
+  "keywords": [
+    "tesing",
+    "automation",
+    "cypress"
+  ],
+  "author": "Rajat Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.1",
+    "prettier": "^2.6.2"
+  }
+}
