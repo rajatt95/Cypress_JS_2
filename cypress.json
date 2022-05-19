@@ -1,3 +1,12 @@
 {
+    "watchForFileChanges": false,
+    "viewportWidth": 1000,
+    "viewportHeight": 600,
+    "waitForAnimations": true,
+    "defaultCommandTimeout": 5000,
+    "execTimeout": 60000,
+    "PageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 20000,
     "video": false
 }
