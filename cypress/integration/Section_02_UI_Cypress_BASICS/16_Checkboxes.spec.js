@@ -14,7 +14,7 @@
 
 describe('Section - 02: Cypress Fundamentals - BASICS',()=>{
     
-    it('Type slowly',()=>{
+    it('Checkbox',()=>{
         
         cy.visit('http://zero.webappsecurity.com/login.html')
        

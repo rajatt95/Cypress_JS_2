@@ -1,7 +1,7 @@
 {
-  "name": "udemy_ko_cypress_ts",
+  "name": "udemy_ko_cypress",
   "version": "1.0.0",
-  "description": "Automated Software Testing with Cypress and Typescript",
+  "description": "Automated Software Testing with Cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,10 +14,27 @@
     "cy:run_ALL_Headless": "cypress run",
     "cy:run_ALL_Headed": "cypress run --headed",
 
-    "-----------> Comment #12": "UDEMY - Kaniel Outis (Section 2: Cypress Fundamentals - Basics) - END"
+    "-----------> Comment #12": "UDEMY - Kaniel Outis (Section 2: Cypress Fundamentals - Basics) - END",
+
+
+    "-----------> Comment #51": "UDEMY - Kaniel Outis (Section 11: Cypress + Docker) - START",
+ 
+    "cy:run_DOCKER_Headed": "cypress run --headed --spec cypress/integration/Section_11_UI_Cypress_Docker/**.spec.js",
+    "cy:run_DOCKER_FILE_Headed": "docker build -t cypress .",
+    
+    "-----------> Comment #52": "UDEMY - Kaniel Outis (Section 11: Cypress + Docker) - END",
+    
+    "-----------> Comment #101": "UDEMY - Kaniel Outis (Cypress) (FOLDER wise) - START",
+    
+    "test_folder_KO_Section_02": "cypress run --headed --spec cypress/integration/Section_02_UI_Cypress_BASICS/**.spec.js",
+
+    "test_folder_KO_Section_11": "cypress run --headed --spec cypress/integration/Section_11_UI_Cypress_Docker/**.spec.js",
+
+    "-----------> Comment #102": "UDEMY - Kaniel Outis (Cypress) (FOLDER wise) - END"
 
 
   },
+
   "keywords": [
     "tesing",
     "automation",
