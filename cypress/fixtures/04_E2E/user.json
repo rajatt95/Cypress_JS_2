@@ -1,0 +1,4 @@
+{
+    "id": "username",
+    "pwd": "password"
+}
